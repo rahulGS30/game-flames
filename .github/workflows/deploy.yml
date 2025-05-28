@@ -3,7 +3,7 @@ name: Deploy FLAMES App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your default branch is not `main`
+      - master# Change this if your default branch is not `main`
  
 permissions:
   contents: read
